@@ -23,12 +23,13 @@ a{
 #background{
     width:100%;
     height:100vh;
-    ;
+    background-image: url(background9.webp);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
-    background-color: var(--color1);
+   /* background-color: var(--color1);*/
     position: relative;
+    animation:objeveni 3s ease
     
     
 }
@@ -968,6 +969,8 @@ footer img{
     }
     #background{
         height:1100px;
+        background-color: var(--color1);
+        background-image: none;
     }
     h1{
         font-size: 50px;
